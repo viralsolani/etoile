@@ -28,7 +28,7 @@ define('DB_NAME', 'wp_etoile');
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'August@2015');
+define('DB_PASSWORD', 'August@2019');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
