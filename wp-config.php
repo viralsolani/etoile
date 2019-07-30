@@ -87,8 +87,8 @@ define('FS_CHMOD_DIR', (0705 & ~ umask()));
 define('FS_CHMOD_FILE', (0604 & ~ umask()));
 
 define( 'WP_AUTO_UPDATE_CORE', false );
-add_filter( 'auto_update_theme', '__return_false' );
-add_filter( 'auto_update_plugin', '__return_false' );
+// add_filter( 'auto_update_theme', '__return_false' );
+// add_filter( 'auto_update_plugin', '__return_false' );
 
 
 /* That's all, stop editing! Happy blogging. */
