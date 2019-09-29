@@ -1,0 +1,247 @@
+div.wc_ss_btns
+{
+	padding: 15px;
+	clear: both;
+	width: 100%;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+span.wc_ss_btns_flex
+{
+	display: flex;
+	flex: 1;
+}
+div.wc_ss_btns.modern-theme-circle 
+{
+	padding: 0 15px 0 0; 
+	margin: 15px 0;
+}
+div.wc_ss_btns.modern-theme-circle > ul > li.more > a {
+	border-radius: 50%;
+	padding-left: 11px;
+}
+div.wc_ss_btns:before,
+div.wc_ss_btns:after
+{
+	display: table;
+	content: "";
+	clear: both;
+}
+div.wc_ss_btns > ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+div.wc_ss_btns > ul > li
+{
+    float: left;
+    width: inherit;
+    line-height: 1.75;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    width: 32px;
+    height: 32px;
+    border-right: none;
+    background-color: #ddd;
+}
+
+div.wc_ss_btns > ul > li > a > i {
+	font-size: 14px;
+}
+div.wc_ss_btns > span {
+	font-size: 12px;
+	float: right;
+	text-align: right;
+}
+div.wc_ss_btns > ul > li > a 
+{
+	display: block;
+	outline: none;
+	padding: 2px 4px;
+}
+div.wc_ss_btns > ul > li > a > span
+{
+	display: none;
+}
+div.wc_ss_btns > ul > li > a {
+	color: rgba(255,255,255, 1) !important;
+}
+/*facebook*/
+div.wc_ss_btns > ul > li.facebook {
+	background-color: rgba(59, 89, 152, 1);
+}
+div.wc_ss_btns > ul > li.facebook:hover {
+	background-color: rgba(59, 89, 152	, 1);
+}
+/*twitter*/
+div.wc_ss_btns > ul > li.twitter {
+	background-color: rgba(0, 182, 241, 1);
+}
+div.wc_ss_btns > ul > li.twitter:hover {
+	background-color: rgba(0, 182, 241, 1);
+}
+/*google*/
+div.wc_ss_btns > ul > li.google {
+	background-color: rgba(223, 74, 50, 1);
+}
+div.wc_ss_btns > ul > li.google:hover {
+	background-color: rgba(223, 74, 50, 1);
+}
+/*delicious*/
+div.wc_ss_btns > ul > li.delicious {
+	background-color: rgba(51,153,255,1);
+}
+div.wc_ss_btns > ul > li.delicious:hover {
+	background-color: rgba(51,153,255, 1);
+}
+/*reddit*/
+div.wc_ss_btns > ul > li.reddit {
+	background-color: rgba(255, 87, 0,1);
+}
+div.wc_ss_btns > ul > li.reddit:hover {
+	background-color: rgba(255, 87, 0, 1);
+}
+/*linkedin*/
+div.wc_ss_btns > ul > li.linkedin {
+	background-color: rgba(0, 123, 182, 1);
+}
+div.wc_ss_btns > ul > li.linkedin:hover {
+	background-color: rgba(0, 123, 182, 1);
+}
+/*pinterest*/
+div.wc_ss_btns > ul > li.pinterest {
+	background-color: rgba(203, 32, 39, 1);
+}
+div.wc_ss_btns > ul > li.pinterest:hover {
+	background-color: rgba(203, 32, 39,1);
+}
+/*email*/
+div.wc_ss_btns > ul > li.email {
+	background-color: rgba(244, 0, 131, 1);
+}
+div.wc_ss_btns > ul > li.email:hover {
+	background-color: rgba(244, 0, 131, 1);
+}
+/*Tumblr*/
+div.wc_ss_btns > ul > li.tumblr {
+	background-color: rgba(50,80,109,1);
+}
+div.wc_ss_btns > ul > li.tumblr:hover {
+	background-color: rgba(50,80,109, 1);
+}
+/*Skype*/
+div.wc_ss_btns > ul > li.skype {
+	background-color: rgba(0,175,240,.8);
+}
+div.wc_ss_btns > ul > li.skype:hover {
+	background-color: rgba(0,175,240, 1);
+}
+/*Skype*/
+div.wc_ss_btns > ul > li.whatsapp {
+	background-color: rgba(100,212,72,.8);
+}
+div.wc_ss_btns > ul > li.whatsapp:hover {
+	background-color: rgba(100,212,72, 1);
+}
+
+/*StumbleUpon*/
+div.wc_ss_btns > ul > li.stumbleupon {
+	background-color: rgba(235, 73, 36,1);
+}
+div.wc_ss_btns > ul > li.stumbleupon:hover {
+	background-color: rgba(235, 73, 36, 1);
+}
+
+/*Yahoo*/
+div.wc_ss_btns > ul > li.yahoo {
+	background-color: rgba(67, 2, 151,1);
+}
+div.wc_ss_btns > ul > li.yahoo:hover {
+	background-color: rgba(67, 2, 151, 1);
+}
+
+/*digg*/
+div.wc_ss_btns > ul > li.digg {
+	background-color: rgba(0,91,226,1);
+}
+div.wc_ss_btns > ul > li.digg:hover {
+	background-color: rgba(0,91,226, 1);
+}
+
+/*buffer*/
+div.wc_ss_btns > ul > li.buffer {
+	background-color: rgba(50,59,67,1);
+}
+div.wc_ss_btns > ul > li.buffer:hover {
+	background-color: rgba(50,59,67, 1);
+}
+
+/*blogger*/
+div.wc_ss_btns > ul > li.blogger {
+	background-color: rgba(245,125,0,1);
+}
+div.wc_ss_btns > ul > li.blogger:hover {
+	background-color: rgba(245,125,0, 1);
+}
+
+/*viber*/
+div.wc_ss_btns > ul > li.viber {
+	background-color: rgba(89,38,124,1);
+}
+div.wc_ss_btns > ul > li.viber:hover {
+	background-color: rgba(89,38,124, 1);
+}
+
+
+
+
+div.wc_ss_btns > ul > li > a > i
+{
+	transition: all 0.20s ease-in-out;
+}
+div.wc_ss_btns > ul > li > a:hover
+{
+	color: rgb(255,255,255) !important;
+	background-color: rgba(0, 0, 0, 0.02);
+}
+div.wc_ss_btns.modern-theme-circle > ul > li > a:hover {
+	text-decoration: none !important;
+} 
+div.wc_ss_btns.modern-theme-circle > ul > li > a:hover > i {
+	-webkit-animation: toTopFromBottom 0.3s forwards;
+	-moz-animation: toTopFromBottom 0.3s forwards;
+	animation: toTopFromBottom 0.3s forwards;
+}
+div.wc_ss_btns.modern-theme-circle:not(.wc_ss_btns_float) > ul > li.more > a {
+	height: 32px;
+	color: #666;
+}
+div.wc_ss_btns.modern-theme-circle > ul > li > a 
+{
+	padding: 0px !important;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	outline: none;
+	height: 32px;
+}
+/*floating mode*/
+div.wc_ss_btns.modern-theme-circle.wc_ss_btns_float > ul {
+	margin-left: 5px;
+}
+div.wc_ss_btns.modern-theme-circle.wc_ss_btns_float > ul > li 
+{
+	width: 44px;
+	height: 42px;
+	margin-bottom: 5px;
+}
+div.wc_ss_btns.modern-theme-circle.wc_ss_btns_float > ul > li > a 
+{
+	height: 42px;
+}

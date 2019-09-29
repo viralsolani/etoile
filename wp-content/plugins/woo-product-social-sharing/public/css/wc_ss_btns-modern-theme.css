@@ -1,0 +1,295 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+@import url('https://fonts.googleapis.com/css?family=Raleway:600');
+div.wc_ss_btns
+{
+	padding: 15px;
+	clear: both;
+	width: 100%;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+span.wc_ss_btns_flex
+{
+	display: flex;
+	flex: 1;
+}
+div.wc_ss_btns.modern-theme 
+{
+	padding: 0 15px 0 0; 
+	margin: 15px 0;
+}
+div.wc_ss_btns:before,
+div.wc_ss_btns:after
+{
+	display: table;
+	content: "";
+	clear: both;
+}
+div.wc_ss_btns > ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+div.wc_ss_btns > ul > li
+{
+    float: left;
+    width: inherit;
+    line-height: 1.75;
+}
+div.wc_ss_btns > ul > li > a > i {
+	font-size: 14px;
+}
+div.wc_ss_btns > span {
+	font-size: 12px;
+	float: right;
+	text-align: right;
+}
+div.wc_ss_btns > ul > li > a > span {
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+}
+div.wc_ss_btns > ul > li > a 
+{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+	outline: none;
+	padding: 8px 16px;
+	height: 42px;
+}
+div.wc_ss_btns > ul > li:not(.more) > a > i {
+	margin-right: 10px;
+}
+div.wc_ss_btns > ul > li.more > a > i {
+	color: #666;
+}
+
+div.wc_ss_btns > ul > li > a:hover i {
+	-webkit-animation: toTopFromBottom 0.3s forwards;
+	-moz-animation: toTopFromBottom 0.3s forwards;
+	animation: toTopFromBottom 0.3s forwards;
+}
+div.wc_ss_btns > ul > li > a:hover {
+	text-decoration: none !important;
+}
+
+/*facebook*/
+div.wc_ss_btns > ul > li.facebook {
+	background-color: rgba(59, 89, 152, 1);
+}
+div.wc_ss_btns > ul > li.facebook:hover {
+	background-color: rgba(59, 89, 152	, 1);
+}
+/*twitter*/
+div.wc_ss_btns > ul > li.twitter {
+	background-color: rgba(0, 182, 241, 1);
+}
+div.wc_ss_btns > ul > li.twitter:hover {
+	background-color: rgba(0, 182, 241, 1);
+}
+/*google*/
+div.wc_ss_btns > ul > li.google {
+	background-color: rgba(223, 74, 50, 1);
+}
+div.wc_ss_btns > ul > li.google:hover {
+	background-color: rgba(223, 74, 50, 1);
+}
+/*delicious*/
+div.wc_ss_btns > ul > li.delicious {
+	background-color: rgba(51,153,255,1);
+}
+div.wc_ss_btns > ul > li.delicious:hover {
+	background-color: rgba(51,153,255, 1);
+}
+/*reddit*/
+div.wc_ss_btns > ul > li.reddit {
+	background-color: rgba(255, 87, 0,1);
+}
+div.wc_ss_btns > ul > li.reddit:hover {
+	background-color: rgba(255, 87, 0, 1);
+}
+/*linkedin*/
+div.wc_ss_btns > ul > li.linkedin {
+	background-color: rgba(0, 123, 182, 1);
+}
+div.wc_ss_btns > ul > li.linkedin:hover {
+	background-color: rgba(0, 123, 182, 1);
+}
+/*pinterest*/
+div.wc_ss_btns > ul > li.pinterest {
+	background-color: rgba(203, 32, 39, 1);
+}
+div.wc_ss_btns > ul > li.pinterest:hover {
+	background-color: rgba(203, 32, 39,1);
+}
+/*email*/
+div.wc_ss_btns > ul > li.email {
+	background-color: rgba(244, 0, 131, 1);
+}
+div.wc_ss_btns > ul > li.email:hover {
+	background-color: rgba(244, 0, 131, 1);
+}
+/*Tumblr*/
+div.wc_ss_btns > ul > li.tumblr {
+	background-color: rgba(50,80,109,1);
+}
+div.wc_ss_btns > ul > li.tumblr:hover {
+	background-color: rgba(50,80,109, 1);
+}
+/*Skype*/
+div.wc_ss_btns > ul > li.skype {
+	background-color: rgba(0,175,240,1);
+}
+div.wc_ss_btns > ul > li.skype:hover {
+	background-color: rgba(0,175,240, 1);
+}
+/*Skype*/
+div.wc_ss_btns > ul > li.whatsapp {
+	background-color: rgba(100,212,72,1);
+}
+div.wc_ss_btns > ul > li.whatsapp:hover {
+	background-color: rgba(100,212,72, 1);
+}
+
+/*StumbleUpon*/
+div.wc_ss_btns > ul > li.stumbleupon {
+	background-color: rgba(235, 73, 36,1);
+}
+div.wc_ss_btns > ul > li.stumbleupon:hover {
+	background-color: rgba(235, 73, 36, 1);
+}
+
+/*Yahoo*/
+div.wc_ss_btns > ul > li.yahoo {
+	background-color: rgba(67, 2, 151,1);
+}
+div.wc_ss_btns > ul > li.yahoo:hover {
+	background-color: rgba(67, 2, 151, 1);
+}
+
+/*digg*/
+div.wc_ss_btns > ul > li.digg {
+	background-color: rgba(0,91,226,1);
+}
+div.wc_ss_btns > ul > li.digg:hover {
+	background-color: rgba(0,91,226, 1);
+}
+
+/*buffer*/
+div.wc_ss_btns > ul > li.buffer {
+	background-color: rgba(50,59,67,1);
+}
+div.wc_ss_btns > ul > li.buffer:hover {
+	background-color: rgba(50,59,67, 1);
+}
+
+/*blogger*/
+div.wc_ss_btns > ul > li.blogger {
+	background-color: rgba(245,125,0,1);
+}
+div.wc_ss_btns > ul > li.blogger:hover {
+	background-color: rgba(245,125,0, 1);
+}
+
+/*viber*/
+div.wc_ss_btns > ul > li.viber {
+	background-color: rgba(89,38,124,1);
+}
+div.wc_ss_btns > ul > li.viber:hover {
+	background-color: rgba(89,38,124, 1);
+}
+div.wc_ss_btns > ul > li
+{
+	transition: all 0.20s ease-in-out;
+}
+div.wc_ss_btns > ul > li > a {
+	color: #fff !important;
+}
+div.wc_ss_btns > ul > li > a:hover
+{
+	background-color: rgba(0, 0, 0, 0.02);
+	color: #fff;
+}
+
+
+/*Floating buttons*/
+div.wc_ss_btns.wc_ss_btns_float > ul > li.facebook > a,
+div.wc_ss_btns.wc_ss_btns_float > ul > li.twitter > a,
+div.wc_ss_btns.wc_ss_btns_float > ul > li.linkedin > a,
+div.wc_ss_btns.wc_ss_btns_float > ul > li.pinterest > a,
+div.wc_ss_btns.wc_ss_btns_float > ul > li.google > a,
+div.wc_ss_btns.wc_ss_btns_float > ul > li.email > a,
+div.wc_ss_btns.wc_ss_btns_float > ul > li.reddit > a,
+div.wc_ss_btns.wc_ss_btns_float > ul > li.delicious > a {
+	color: #fff;
+}
+div.wc_ss_btns.wc_ss_btns_float {
+	position: fixed;
+	width: 34px;
+	top: 20%;
+	left: 0;
+	z-index: 4564633156313;
+	border: none;
+}
+div.wc_ss_btns.wc_ss_btns_float > ul > li
+{
+	width: 44px;
+	border: none;
+}
+div.wc_ss_btns.wc_ss_btns_float > ul > li:last-of-type
+{
+	border: none;
+}
+
+div.wc_ss_btns.wc_ss_btns_float > ul > li > a,
+div.wc_ss_btns.wc_ss_btns_float > ul > li > a:hover,
+div.wc_ss_btns.wc_ss_btns_float > ul > li > a:active,
+div.wc_ss_btns.wc_ss_btns_float > ul > li > a:focus,
+div.wc_ss_btns.wc_ss_btns_float > ul > li > a:visited {
+	padding: 8px 16px !important;
+}
+div.wc_ss_btns.wc_ss_btns_float > ul > li.wc_ss_btns_hide a, 
+div.wc_ss_btns.wc_ss_btns_float > ul > li.wc_ss_btns_show a
+{
+	padding: 0 !important;
+	padding-right: 8px !important;
+}
+div.wc_ss_btns.wc_ss_btns_float > ul > li {
+	float: none;
+	height: 44px;
+	overflow: none;
+}
+div.wc_ss_btns.wc_ss_btns_float > ul > li > a {
+	height: 44px;
+	overflow: hidden;
+}
+
+div.wc_ss_btns.wc_ss_btns_float > ul > li:hover:not(.wc_ss_btns_hide):not(.more) {
+	text-align: left; 
+	width: 95px;
+	transition: all 0.40s ease-in-out;
+}
+div.wc_ss_btns.wc_ss_btns_float > ul > li.wc_ss_btns_hide:hover {
+	width: 50px;
+}
+div.wc_ss_btns.wc_ss_btns_float > ul > li.wc_ss_btns_show {
+	float: left;
+}
+div.wc_ss_btns.wc_ss_btns_float > ul > li > a > span {
+	margin-left: 5px;
+	visibility: hidden;
+	display: inline;
+	z-index: -1;
+}
+div.wc_ss_btns.wc_ss_btns_float > ul > li:hover > a > span {
+	visibility: visible;
+	display: inline;
+	z-index: 1;
+	transition: all 0.80s ease-in-out;
+}

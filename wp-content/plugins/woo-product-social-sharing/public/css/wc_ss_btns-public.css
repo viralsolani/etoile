@@ -1,0 +1,429 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+div.wc_ss_btns
+{
+	padding: 15px;
+	clear: both;
+	width: 100%;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.wc_ss_btns_hidden {
+	display: none;
+}
+span.wc_ss_btns_flex
+{
+	display: flex;
+	flex: 1;
+}
+div.wc_ss_btns.default-theme 
+{
+	border: 1px solid rgba(0, 0, 0, 0.05); 
+	padding: 0 15px 0 0; 
+	margin: 15px 0;
+}
+div.wc_ss_btns:before,
+div.wc_ss_btns:after
+{
+	display: table;
+	content: "";
+	clear: both;
+}
+div.wc_ss_btns > ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+div.wc_ss_btns > ul > li
+{
+	width: 32px;
+    float: left;
+    text-align: center;
+    border-right: none;
+    line-height: 2;
+}
+div.wc_ss_btns > span {
+	font-size: 12px;
+	float: right;
+	text-align: right;
+}
+div.wc_ss_btns > ul > li > a 
+{
+	display: block;
+	outline: none;
+	-webkit-box-shadow: none;
+			box-shadow: none;
+
+	transition: none;
+}
+div.wc_ss_btns > ul > li > a:hover,
+div.wc_ss_btns > ul > li > a:focus,
+div.wc_ss_btns > ul > li > a:active {
+	-webkit-box-shadow: none;
+			box-shadow: none;
+
+	transition: none;
+}
+div.wc_ss_btns > ul > li.more
+{
+	position: relative;
+}
+div.wc_ss_btns > ul > li.more > a
+{
+	background-color: #ddd;
+	color: #555;
+}
+div.wc_ss_btns:not(.wc_ss_btns_float) > ul > li.more > a {
+	height: 42px;
+}
+div.wc_ss_btns > ul > li.more > a:hover
+{
+	color: #555;
+	background-color: #ccc;
+}
+div.wc_ss_btns > ul > li.facebook > a {
+	color: rgb(59, 89, 152);
+}
+div.wc_ss_btns > ul > li.twitter > a {
+	color: rgb(0, 182, 241);
+}
+div.wc_ss_btns > ul > li.google > a {
+	color: rgb(223, 74, 50);
+}
+div.wc_ss_btns > ul > li.linkedin > a {
+	color: rgb(0, 123, 182);
+}
+div.wc_ss_btns > ul > li.pinterest > a {
+	color: rgb(203, 32, 39);
+}
+div.wc_ss_btns > ul > li.email > a {
+	color: rgb(244, 0, 131);
+}
+div.wc_ss_btns > ul > li.reddit > a {
+	color: rgb(51,51,51);
+}
+div.wc_ss_btns > ul > li.delicious > a {
+	color: rgb(51,153,255);
+	line-height: 2;
+}
+div.wc_ss_btns > ul > li.delicious > i {
+	font-size: 16px;
+}
+div.wc_ss_btns > ul > li > a > i
+{
+	transition: all 0.20s ease-in-out;
+	font-size: 16px;
+}
+div.wc_ss_btns > ul > li > a:hover
+{
+	background-color: rgba(0, 0, 0, 0.02);
+}
+
+div.wc_ss_btns.default-theme > ul > li > a > span
+{
+	display: none;
+}
+div.wc_ss_btns.default-theme > ul > li.more > a
+{
+	padding-left: 8px;
+	background-color: #fff;
+}
+div.wc_ss_btns.wc_ss_btns_float.default-theme > ul > li.more > a
+{
+	padding-left: 16px;
+	background-color: #ddd;
+}
+
+/* Floating buttons*/
+div.wc_ss_btns.wc_ss_btns_float {
+	position: fixed;
+	width: 34px;
+	top: 20%;
+	transition: all .2s ease-in-out;
+	left: 0;
+	z-index: 4564633156313;
+	border: none;
+}
+div.wc_ss_btns.wc_ss_btns_float span {
+	display: none;
+}
+div.wc_ss_btns.wc_ss_btns_float.wc_ss_btns_float_right {
+	float: right;
+	left: auto;
+	right: 10px;
+}
+/*div.wc_ss_btns > ul > li*/
+div.wc_ss_btns.wc_ss_btns_float > ul > li
+{
+	width: 44px;
+	background-color: #fff;
+	border-right: none;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+	transition: all .15s ease-in-out;
+}
+/*div.wc_ss_btns.wc_ss_btns_float > ul > li:hover {
+    width: 50px;
+}*/
+div.wc_ss_btns.wc_ss_btns_float.wc_ss_btns_float_right > ul > li:hover
+{
+	direction: rtl;
+}
+div.wc_ss_btns.wc_ss_btns_float > ul > li:last-of-type
+{
+	border-bottom: none;
+}
+div.wc_ss_btns.wc_ss_btns_float > ul > li > a,
+div.wc_ss_btns.wc_ss_btns_float > ul > li > a:hover,
+div.wc_ss_btns.wc_ss_btns_float > ul > li > a:active,
+div.wc_ss_btns.wc_ss_btns_float > ul > li > a:focus,
+div.wc_ss_btns.wc_ss_btns_float > ul > li > a:visited {
+	padding: 4px 16px;
+}
+div.wc_ss_btns.wc_ss_btns_float > ul > li.more > a,
+div.wc_ss_btns.wc_ss_btns_float > ul > li.more > a:hover,
+div.wc_ss_btns.wc_ss_btns_float > ul > li.more > a:active,
+div.wc_ss_btns.wc_ss_btns_float > ul > li.more > a:focus,
+div.wc_ss_btns.wc_ss_btns_float > ul > li.more > a:visited {
+	color: #666 !important;
+}
+div.wc_ss_btns.wc_ss_btns_float > ul > li > a > span {
+	display: none;
+}
+
+div.wc_ss_btns.wc_ss_btns_float.default-theme > ul > li {
+	border: none;
+}
+
+/*Hide button*/
+div.wc_ss_btns.wc_ss_btns_float > ul > li.wc_ss_btns_hide,
+div.wc_ss_btns.wc_ss_btns_float > ul > li.wc_ss_btns_show {
+	width: 20px;
+}
+div.wc_ss_btns.wc_ss_btns_float > ul > li.wc_ss_btns_hide > a,
+div.wc_ss_btns.wc_ss_btns_float > ul > li.wc_ss_btns_show > a
+{
+	transition: all .2s ease-in-out;
+	color: #666 !important;
+	padding: 0;
+    text-align: right;
+    padding-right: 8px;
+}
+
+div.wc_ss_btns.wc_ss_btns_float.hide {
+	transition: all .2s ease-in-out;
+	left: -44px;
+}
+div.wc_ss_btns.wc_ss_btns_float > ul > li.wc_ss_btns_show {
+	position: relative;
+	left: -44px;
+}
+div.wc_ss_btns.wc_ss_btns_float.hide > ul > li.wc_ss_btns_show {
+	left: 26px;
+}
+/*floating right hide button*/
+div.wc_ss_btns.wc_ss_btns_float.wc_ss_btns_float_right > ul > li.wc_ss_btns_hide,
+div.wc_ss_btns.wc_ss_btns_float.wc_ss_btns_float_right > ul > li.wc_ss_btns_show {
+	width: 20px;
+	float: right;
+}
+div.wc_ss_btns.wc_ss_btns_float.wc_ss_btns_float_right > ul > li.wc_ss_btns_hide > a,
+div.wc_ss_btns.wc_ss_btns_float.wc_ss_btns_float_right > ul > li.wc_ss_btns_show > a
+{
+    text-align: left;
+    padding-left: 8px;
+    padding-right: 0;
+}
+
+div.wc_ss_btns.wc_ss_btns_float.wc_ss_btns_float_right.hide {
+	transition: all .2s ease-in-out;
+	right: -34px;
+	left: inherit;
+}
+div.wc_ss_btns.wc_ss_btns_float.wc_ss_btns_float_right > ul > li.wc_ss_btns_show {
+	position: relative;
+	right: -44px;
+	left: inherit;
+}
+div.wc_ss_btns.wc_ss_btns_float.wc_ss_btns_float_right.hide > ul > li.wc_ss_btns_show {
+	right: 26px;
+}
+
+/* MORE BUTTONS DISPLAY */
+div.wc_ss_btns_more_buttons {
+	display: none;
+	padding: 0;
+	margin: 0;
+	
+}
+div.wc_ss_btns_more_buttons.open {
+	display: block;
+	position: fixed;
+	transition: all .2s ease-in-out;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 5111111111111;
+	background-color: rgba(0,0,0,.97);
+	padding: 16px;
+	color: #fff;
+}
+div.wc_ss_btns_more_buttons.open .wc_ss_btns_more_buttons-content ul li a {
+	color: #fff;
+}
+div.wc_ss_btns_more_buttons > div.wc_ss_btns_more_buttons-heading {
+	border-bottom: 4px solid #ddd;
+}
+div.wc_ss_btns_more_buttons > div.wc_ss_btns_more_buttons-heading:after {
+	display: table;
+	content: "";
+	clear: both;
+}
+div.wc_ss_btns_more_buttons > div.wc_ss_btns_more_buttons-heading > .wc_ss_btns-title {
+	float: left;
+}
+div.wc_ss_btns_more_buttons > div.wc_ss_btns_more_buttons-content {
+	margin: 0 auto;
+	width: 50%;
+	margin-top: 60px;
+}
+div.wc_ss_btns_more_buttons > div.wc_ss_btns_more_buttons-content:after,
+div.wc_ss_btns_more_buttons > div.wc_ss_btns_more_buttons-content:before {
+	display: table;
+	content: "";
+	clear: both;
+}
+div.wc_ss_btns_more_buttons > div.wc_ss_btns_more_buttons-content > ul > li {
+	list-style: none;
+	float: left;
+	width: 16%;
+	margin-right: 5px;
+	margin-bottom: 15px;
+	text-align: center;
+	color: #555;
+}
+.wc_ss_btns-close {
+	background-color: rgba(0,0,0,0);
+	font-size: 24px;
+	float: right;
+	padding: 4px 16px;
+	margin-right: 16px;
+	color: #fff;
+}
+.wc_ss_btns-close:hover,
+.wc_ss_btns-close:focus,
+.wc_ss_btns-close:active {
+	background-color: rgba(0,0,0,.3);
+	color: #fff;
+}
+
+
+@-webkit-keyframes toTopFromBottom {
+	49% {
+		-webkit-transform: translateY(-100%);
+	}
+	50% {
+		opacity: 0;
+		-webkit-transform: translateY(100%);
+	}
+	51% {
+		opacity: 1;
+	}
+}
+@-moz-keyframes toTopFromBottom {
+	49% {
+		-moz-transform: translateY(-100%);
+	}
+	50% {
+		opacity: 0;
+		-moz-transform: translateY(100%);
+	}
+	51% {
+		opacity: 1;
+	}
+}
+@keyframes toTopFromBottom {
+	49% {
+		transform: translateY(-100%);
+	}
+	50% {
+		opacity: 0;
+		transform: translateY(100%);
+	}
+	51% {
+		opacity: 1;
+	}
+}
+
+
+
+@media screen and (max-width: 576px)
+{
+	body { padding-bottom: 42px !important; }
+	div.wc_ss_btns {
+		top: auto !important;
+		right: 0;
+		bottom: 0;
+		width: 100% !important;
+	}
+	div.wc_ss_btns > ul { width: 100%; }
+	div.wc_ss_btns > ul > li { width: 16.66% !important; }
+	div.wc_ss_btns > span { display: none; }
+	div.wc_ss_btns:not(.wc_ss_btns_float) > ul > li { width: 50% !important; }
+
+	div.wc_ss_btns_more_buttons > div.wc_ss_btns_more_buttons-content { width: 100%; }
+	div.wc_ss_btns.wc_ss_btns_float {
+		display: flex;
+		flex-direction: row;
+	}
+	div.wc_ss_btns.wc_ss_btns_float ul {
+		display: flex;
+		flex-direction: row;
+	}
+
+	div.wc_ss_btns.wc_ss_btns_float ul li {
+		display: flex;
+		flex-direction: row;
+		flex: 1;
+	}
+	div.wc_ss_btns.wc_ss_btns_float ul li a{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		padding: 0 !important;
+		width: 100%;
+	}
+	div.wc_ss_btns.wc_ss_btns_float > ul > li > a > span {
+		display: none !important;
+	}
+
+	div.wc_ss_btns.wc_ss_btns_float {
+		padding-right: 0 !important;
+		margin-bottom: 0 !important;
+	}
+
+	div.wc_ss_btns.wc_ss_btns_float > ul > li.wc_ss_btns_hide, 
+	div.wc_ss_btns.wc_ss_btns_float > ul > li.wc_ss_btns_show
+	{
+		display: none !important;
+	}
+	div.wc_ss_btns.wc_ss_btns_float > ul > li.delicious a,
+	div.wc_ss_btns.wc_ss_btns_float > ul > li.delicious a:hover {
+		padding-bottom: 4px !important;
+	}
+	div.wc_ss_btns.wc_ss_btns_float > ul > li > a, 
+	div.wc_ss_btns.wc_ss_btns_float > ul > li > a:hover
+	{
+		padding: 8px 14px;
+	}
+
+	div.wc_ss_btns_more_buttons > div.wc_ss_btns_more_buttons-content > ul > li {
+		width: 30%;
+		margin-bottom: 15px;
+	}
+}

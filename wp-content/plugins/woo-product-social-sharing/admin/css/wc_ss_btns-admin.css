@@ -1,0 +1,178 @@
+.wc_ss_table {
+	margin-top: 15px;
+	width: 100%;
+}
+.wc_ss_table > tbody > tr > td:first-of-type
+{
+	width: 200px;
+	display: table-cell;
+	vertical-align: top;
+	padding: 5px;
+}
+.wc_ss_table > tbody > tr > td {
+	padding-bottom: 30px;
+}
+.wc_ss_table > tbody > tr > td:first-of-type > span {
+	display: block;
+	font-weight: 700;
+}
+.wc_ss_table ul > li {
+	float: left;
+	min-width: 30%;
+}
+.wc_ss_table ul > li > i {
+	width: 24px;
+    display: inline-block;
+    text-align: center;
+}
+.wc_ss_table ul > li img {
+	display: block;
+}
+.wc_ss_btns-networks-table td {
+	padding-bottom: 5px;
+}
+.wc_ss_btns-networks-table td > i {
+	border-radius: 3px;
+	width: 32px;
+	height: 32px;
+	background-color: #ddd;
+	padding: 6px;
+}
+.wc_ss_btns-notice {
+    padding: 8px;
+}
+.wc_ss_btns-notice.wc_ss_btns-notice-info {
+	background-color: #fff;
+    border-left: 4px solid rgba(25,118,210, 0.6);
+}
+.wc_ss_btns-notice.wc_ss_btns-notice-warning {
+	background-color: #fff;
+    border-left: 4px solid rgba(255,193,7, 0.6);
+}
+.wc_ss_btns-notice.wc_ss_btns-notice-danger {
+	background-color: rgba(244,67,54, 0.07);
+    border: 1px solid rgba(244,67,54, 0.07);
+}
+.ss_btns_thankyou_msg,
+.ss_btns_version_msg {
+	float: right;
+	padding: 0;
+	padding-left: 15px;
+	font-size: 60%;
+}
+.ss_btns_version_msg {
+	font-size: 60%;
+}
+.ss_btns_thankyou_msg.footer {
+	float: none;
+	font-size: 100%;
+	padding-left: 0;
+}
+.wc_ss_btns-float-post-types,
+.wc_ss_btns-float-positions,
+.wc_ss_btns-display_message {
+	display: none;
+}
+
+#wc_ss_preview {
+	height: 50px;
+}
+
+.wc_ss_box {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 10px 30px 30px 30px;
+	min-height: 230px;
+	box-sizing: border-box;
+}
+
+.wc_ss_box .wc_ss_box_buy_now a {
+	display: inline-block;
+	margin-top: 15px;
+	background-color: #0097e6;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 20px;
+	border-radius: 4px;
+	text-align: center;
+}
+
+ul.wc_ss_btns-settings {
+	-webkit-margin-before: 0px;
+	margin-top: 0px;
+}
+.wc_ss_btns-img-radio-btn {
+	position: relative;
+}
+.wc_ss_btns-img-radio-btn > input {
+	visibility: hidden;
+	position: absolute;
+}
+.wc_ss_btns-img-radio-btn > input + img {
+	cursor: pointer;
+	border: 2px solid transparent;
+}
+
+.wc_ss_btns-img-radio-btn > input:checked + img {
+	border: 2px solid #3fbcef;
+}
+
+/* The switch - the box around the slider */
+.wc_ss_btns-switch {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 18px;
+}
+
+/* Hide default HTML checkbox */
+.wc_ss_btns-switch input {display:none;visibility: hidden;}
+
+/* The slider */
+.wc_ss_btns-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.wc_ss_btns-slider:before {
+  position: absolute;
+  content: "";
+  height: 10px;
+  width: 10px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .wc_ss_btns-slider {
+  background-color: #2196F3;
+}
+
+input:focus + .wc_ss_btns-slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .wc_ss_btns-slider:before {
+  -webkit-transform: translateX(10px);
+  -ms-transform: translateX(10px);
+  transform: translateX(10px);
+}
+
+/* Rounded sliders */
+.wc_ss_btns-slider.round {
+  border-radius: 18px;
+}
+
+.wc_ss_btns-slider.round:before {
+  border-radius: 50%;
+}
