@@ -33,14 +33,15 @@
 				</div>
 				<div class="top-socialicon pull-right">
 					<ul>
-					  <li><span><?php echo the_field( 'phone', 'option' )?></span><a href="<?php echo the_field( 'contact_phone_number', 'option' )?>" title="<?php echo the_field( 'contact_phone_number', 'option' )?>"><?php echo the_field( 'contact_phone_number', 'option' )?></a></li>
-					  <li><a href="my-account" title="My Account">My Account</a></li>
+					  <li><span><?php echo the_field( 'phone', 'option' )?></span><a href="tel:<?php echo the_field( 'contact_phone_number', 'option' )?>" title="<?php echo the_field( 'contact_phone_number', 'option' )?>"><?php echo the_field( 'contact_phone_number', 'option' )?></a></li>
 					  
-					  <?php if(is_user_logged_in()) { ?>
-							<li><a href="<?php echo get_site_url().'/logout'; ?>" title="Logout" class="phoen-login-signup-popup-open">Logout</a></li>
-					  <?php }else{ ?>
-							<li><a href="<?php echo get_site_url().'/login'; ?>" title="Login" class="phoen-login-signup-popup-open">Login</a></li>
-					 <?php } ?>
+					<?php if(is_user_logged_in()) { ?>
+						<li><a href="my-account" title="My Account">My Account</a></li>
+						<li><a href="<?php echo get_site_url().'/logout'; ?>" title="Logout" class="phoen-login-signup-popup-open">Logout</a></li>
+					<?php }else{ ?>
+						<li><a href="<?php echo get_site_url().'/login'; ?>" title="Login" class="phoen-login-signup-popup-open">Login</a></li>
+						<li><a href="<?php echo get_site_url().'/register'; ?>" title="Register" class="phoen-login-signup-popup-open">Register</a></li>
+					<?php } ?>
 					</ul>
 				</div>
 			</div>

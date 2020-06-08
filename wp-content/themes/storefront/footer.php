@@ -19,18 +19,18 @@
     	<div class="container">
         	<div class="row">
             	<div class="main_social_icon col-xs-12 col-sm-6 col-md-6 col-lg-5">
-                	<h2>Social</h2>
+                	<h3>Social</h3>
 					<ul>
-                        <li><a href="" ><?php echo get_field( 'facebook', 'option' )?></a></li>
-                        <li><a href="" ><?php echo get_field( 'twitter', 'option' )?></a></li>
-                        <li><a href="" ><?php echo get_field( 'instagram', 'option' )?></a></li>
-                        <li><a href="" ><?php echo get_field( 'linkedin', 'option' )?></a></li>
-                        <li><a href="" ><?php echo get_field( 'pinterest', 'option' )?></a></li>
-                        <li><a href="" ><?php echo get_field( 'youtube', 'option' )?></a></li>
+                        <li><a href="https://www.facebook.com/etoilefashionindia/" target="_blank"><?php echo get_field( 'facebook', 'option' )?></a></li>
+                        <li><a href="https://twitter.com/EtoileFashion1" target="_blank"><?php echo get_field( 'twitter', 'option' )?></a></li>
+                        <li><a href="https://www.instagram.com/etoile_fashion_india" target="_blank"><?php echo get_field( 'instagram', 'option' )?></a></li>
+                        <li><a href="https://www.linkedin.com/company/14602244/admin/" target="_blank"><?php echo get_field( 'linkedin', 'option' )?></a></li>
+                        <li><a href="https://in.pinterest.com/etoilefashionindia/" target="_blank"><?php echo get_field( 'pinterest', 'option' )?></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCF5SZyX0Iruz8dizlJpqUgA" target="_blank"><?php echo get_field( 'youtube', 'option' )?></a></li>
                     </ul>
                  </div>
             	<div class="newslatter_section col-xs-12 col-sm-6 col-md-6 col-lg-7">
-                	<h2>Newslatter</h2>
+                	<h3>Newsletter</h3>
 					<p>Subscribe to receive Etoile Fashion’s latest offers & updates</p>
 					<?php echo do_shortcode( '[contact-form-7 id="112" title="newslatter"]'); ?>
                 </div>
